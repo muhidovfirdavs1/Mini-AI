@@ -5,19 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>MiniAI</title>
 <meta name="description" content="MiniAI — oddiy, offline va responsive chatbot. Deploy qiling: GitHub Pages yoki Netlify bilan HTTPS avtomatik." />
-<!-- 🔹 Favicon (brauzer oynasida ko‘rinadi) -->
-<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
 
-<!-- 🔹 Apple iPhone / iPad uchun -->
-<link rel="apple-touch-icon" sizes="180x180" href="logo.png">
-
-<!-- 🔹 Microsoft / Android uchun (ixtiyoriy) -->
-<meta name="msapplication-TileImage" content="logo.png">
-<meta name="msapplication-TileColor" content="#0f4a7d">
-
-<!-- 🔹 SEO uchun tavsiya -->
-<meta name="description" content="MiniAI — Sizning shaxsiy AI yordamchingiz.">
 <style>
   /* ====== GLOBAL ====== */
   :root{
@@ -75,6 +63,20 @@
   .hint{font-size:13px;color:var(--muted);margin-top:8px}
   .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.02);font-size:12px;color:var(--muted)}
 </style>
+<!-- 🔹 Favicon (brauzer oynasida ko‘rinadi) -->
+<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+
+<!-- 🔹 Apple iPhone / iPad uchun -->
+<link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+
+<!-- 🔹 Microsoft / Android uchun (ixtiyoriy) -->
+<meta name="msapplication-TileImage" content="logo.png">
+<meta name="msapplication-TileColor" content="#0f4a7d">
+
+<!-- 🔹 SEO uchun tavsiya -->
+<meta name="description" content="MiniAI — Sizning shaxsiy AI yordamchingiz.">
+<meta name="google-site-verification" content="5hFKBGfwjNKd7P8vpYYbDVG6xaOYqk2417WTpuTYDQE" />
 </head>
 <body>
   <div class="wrap" role="application" aria-label="MiniAI Chat">
@@ -328,13 +330,6 @@
     alert('Barchasi o‘chirildi.');
   });
 
-  /* ===== GUIDES ===== */
-  NET_GUIDE.addEventListener('click', () => {
-    alert("Netlify Drop: https://app.netlify.com/drop sahifasiga boring va index.html faylingizni arxivlamasdan torting. Netlify avtomatik HTTPS beradi.");
-  });
-  GH_GUIDE.addEventListener('click', () => {
-    alert("GitHub Pages: GitHub repo yarating -> index.html yuklang -> Settings -> Pages -> Branch: main -> Save. URL: https://USERNAME.github.io/REPO (HTTPS avtomatik).");
-  });
 
   /* ===== INIT UI ===== */
   function loadInitial(){
